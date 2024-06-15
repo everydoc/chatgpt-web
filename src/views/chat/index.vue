@@ -273,7 +273,7 @@ async function onRegenerate(index: number) {
             }
           }
           catch (error) {
-            //
+            console.error('chat error: ', error)
           }
         },
       })
